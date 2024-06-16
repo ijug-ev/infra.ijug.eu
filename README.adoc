@@ -1,0 +1,19 @@
+:reproducible:
+:icons: font
+ifdef::env-github[]
+:tip-caption: :bulb:
+:note-caption: :information_source:
+:important-caption: :heavy_exclamation_mark:
+:caution-caption: :fire:
+:warning-caption: :warning:
+endif::[]
+
+= Dokumentation der iJUG Infrastruktur
+
+Dieses GitHub Projekt dient der Dokumentation der iJUG Infrastruktur, die durch das _iJUG Infrastruktur Team_ verwaltet wird. Die Dokumentation wird im https://asciidoc.org/[AsciiDoc] Format erstellt und ist unter folgender Adresse als aufbereitete Webseite zu finden: https://infra.ijug.eu/[infra.ijug.eu]
+
+Korrekturen und Ergänzungen sind erwünscht, bitte hier im GitHub als Pull Request einreichen. Vielen Dank!
+
+== Webseite manuell generieren
+
+Um aus der Asciidoc-Datei die Webseite zu generieren, wird das Kommandozeilen-Tool https://asciidoctor.org/[Asciidoctor] benötigt. Der entsprechende Aufruf befindet sich im Shell-Skript link:build.sh[build.sh]. Das Skript konvertiert die Datei link:docs/infra.adoc[docs/infra.adoc] und erzeugt die Webseite im Verzeichnis `build`.
