@@ -1,0 +1,41 @@
+== Dokumentation
+
+*In diesem Kapitel geht es um den technischen Aufbau dieser Dokumentation und ihrer Veröffentlichung.*
+
+=== Infrastruktur
+
+Diese Dokumentation wird auf https://github.com/[GitHub] in dem öffentlichen Projekt https://github.com/ijug-ev/infra.ijug.eu[ijug-ev/infra.ijug.eu] gepflegt. Die gesamte Dokumentation wird im https://asciidoc.org/[AsciiDoc] Format erstellt. Aus diesen Dateien wird eine statische Webseite generiert, welche über GitHub Pages gehostet wird. Beim iJUG wurde die Subdomain https://infra.ijug.eu/[infra.ijug.eu] eingerichtet, über die die Dokumentation öffentlich verfügbar ist. Die Subdomain ist im DNS als `CNAME` definiert und verweist auf `ijug-ev.github.io`.
+
+=== Automatisierung
+
+Um bei Änderungen an der Dokumentation die https://infra.ijug.eu/[Webseite] automatisiert zu aktualisieren, gibt es zwei _GitHub Actions:_
+
+==== GitHub Pages Publish
+
+Diese _GitHub Action_ wird automatisch aufgerufen, wenn am `main` Branch Änderungen festgestellt werden. Wie der Name sagt, wird durch diese _Action_ die Webseite veröffentlicht. Sie besteht aus drei Schritten:
+
+. https://github.com/actions/checkout[actions/checkout]: Das Repository wird ausgecheckt.
+. https://github.com/urlstechie/urlchecker-action[urlstechie/urlchecker-action]: Links mit `http` und `https` Protokollen werden überprüft. Ist einer der Links nicht valide, wird die ganze _GitHub Action_ fehlerhaft abgebrochen.
+. https://github.com/manoelcampos/asciidoctor-ghpages-action[manoelcampos/asciidoctor-ghpages-action]: Aus den AsciiDoc Dateien werden die entsprechenden HTML Dateien generiert und der `gh-pages` Branch wird aktualisiert.
+
+Ein manueller Aufruf ist möglich, aber in der Regel nicht nötig. Diese _Action_ wird von uns selbst gepflegt und in folgender Datei definiert: https://github.com/ijug-ev/infra.ijug.eu/blob/main/.github/workflows/asciidoctor-ghpages.yml[.github/workflows/asciidoctor-ghpages.yml]
+
+==== pages-build-deployment
+
+Diese _GitHub Action_ stammt von GitHub selbst und wird automatisch von GitHub aufgerufen, wenn Änderungen am `gh-pages` Branch festgestellt werden. Das ist der Fall, wenn die erste _Action_ "GitHub Pages Publish" erfolgreich durchgelaufen ist. Diese _Action_ ist für die Veröffentlichung der Webseite zuständig und sollte nicht manuell aufgerufen werden.
+
+=== Beitragen
+
+Vorschläge, Ergänzungen und Verbesserungen werden gerne entgegen genommen.
+
+==== Ablauf
+
+Das Repository https://github.com/ijug-ev/infra.ijug.eu[ijug-ev/infra.ijug.eu] ist öffentlich. Vorschläge können ganz einfach als https://github.com/ijug-ev/infra.ijug.eu/issues[GitHub Issue] erfasst werden. Um direkt Ergänzungen und Verbesserungen vorzunehmen, bitte das Repository zuerst https://github.com/ijug-ev/infra.ijug.eu/fork[forken]. Dann kannst du die gewünschten Änderungen in deiner Kopie vornehmen und als Pull Request einreichen.
+
+==== Format
+
+Die Dokumentation verwendet das https://asciidoc.org/[AsciiDoc] Format. Die entsprechenden Dateien befinden sich im Unterverzeichnis `docs`. Die Hauptdatei heisst `index.adoc`. Für jedes Kapitel gibt es eine eigene Datei, welche in der Hauptdatei eingebunden wird. Die Dateinamen sind in englischer Sprache, die Dokumentation selbst ist in deutscher Sprache verfasst. Da es sich um reine Textdateien handelt, kann jeder Texteditor zum Bearbeiten verwendet werden. Alle Textdateien müssen den Zeichensatz https://de.wikipedia.org/wiki/UTF-8[UTF-8] verwenden.
+
+==== Vorschau
+
+Um lokal eine Vorschau der Dokumentation zu erstellen, gibt es das Skript `preview.sh`. Das Skript läuft unter Linux und macOS. Unter Windows wird das https://de.wikipedia.org/wiki/Windows-Subsystem_f%C3%BCr_Linux[WSL] benötigt. Damit die AsciiDoc Dateien für die Vorschau in HTML umgewandelt werden können, ist eine lokale Installation des Kommandozeilenwerkzeugs https://asciidoctor.org/[Asciidoctor] erforderlich. Wenn das Skript erfolgreich aufgerufen wurde (es sind keine Parameter nötig), befindet sich die Vorschau im Verzeichnis `preview`.

@@ -18,3 +18,5 @@ v0.1, 2024-06-16: Start der Dokumentation
 
 [abstract]
 Der https://ijug.eu/[iJUG] stellt seinen Mitgliedern gratis verschiedene Dienste zur Verfügung. Diese Dienste werden von der _iJUG Infrastrukturgruppe_ betrieben, die aus freiwilligen Mitgliedern besteht. Wie diese Dienste betrieben und genutzt werden können, ist Bestandteil dieser Dokumentation.
+
+include::documentation.adoc[]
