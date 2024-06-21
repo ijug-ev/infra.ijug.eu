@@ -1,24 +1,18 @@
 = Dokumentation der iJUG Infrastruktur
 Marcus Fihlon <marcus@fihlon.swiss>
 v0.1, 2024-06-16: Start der Dokumentation
-
-// Die folgenden Attribute darfst Du NICHT verändern:
 :doctype: article
 :toc: left
-:toc-title: Inhalt
 :toclevels: 2
+:toc-title: Inhalt
 :table-caption: Tabelle
 :listing-caption: Listing
 :figure-caption: Abbildung
-:source-language: java
 :source-indent: no
 :source-highlighter: rouge
 :xrefstyle: short
 :reproducible:
-
-// Die folgenden Attribute darfst Du gerne anpassen:
 :imagesdir: ./images/
-
 [abstract]
 Der https://ijug.eu/[iJUG] stellt seinen Mitgliedern gratis verschiedene Dienste zur Verfügung. Diese Dienste werden von der _iJUG Infrastrukturgruppe_ betrieben, die aus freiwilligen Mitgliedern besteht. Wie diese Dienste betrieben und genutzt werden können, ist Bestandteil dieser Dokumentation.
 
