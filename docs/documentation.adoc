@@ -8,11 +8,15 @@ Diese Dokumentation wird auf https://github.com/[GitHub] in dem öffentlichen Pr
 
 === Automatisierung
 
-In diesem Projekt gibt es insgesamt drei _GitHub Actions_, deren Aufgaben im Folgenden erläutert werden.
+In diesem Projekt gibt es insgesamt vier _GitHub Actions_, deren Aufgaben im Folgenden erläutert werden.
 
 ==== add-issue-to-project
 
-Damit die in diesem Projekt erstellten https://github.com/ijug-ev/infra.ijug.eu/issues[GitHub Issues] auf der dem Kanban-Board des Infrastruktur Teams erscheinen, stellt diese _Action_ sicher, dass allen neu erstellten _Issues_ das richtige Projekt zugewiesen wird. Ein manueller AUfruf ist nicht möglich. Diese _Action_ wird von uns selbst gepflegt und in folgender Datei definiert: https://github.com/ijug-ev/infra.ijug.eu/blob/main/.github/workflows/add-issue-to-project.yml[.github/workflows/add-issue-to-project.yml]
+Damit die in diesem Projekt erstellten https://github.com/ijug-ev/infra.ijug.eu/issues[GitHub Issues] auf der dem Kanban-Board des Infrastruktur Teams erscheinen, stellt diese _Action_ sicher, dass allen neu erstellten _Issues_ das richtige Projekt zugewiesen wird. Ein manueller Aufruf ist nicht möglich. Diese _Action_ wird von uns selbst gepflegt und in folgender Datei definiert: https://github.com/ijug-ev/infra.ijug.eu/blob/main/.github/workflows/add-issue-to-project.yml[.github/workflows/add-issue-to-project.yml]
+
+==== add-label-to-issue
+
+Alle https://github.com/ijug-ev/infra.ijug.eu/issues[GitHub Issues] werden automatisiert mit einem _Label_ versehen, um die Übersicht auf dem Kanban-Board des Infrastruktur Teams zu verbessern. Dafür ist diese _GitHub Action_ zuständig, sie fügt jedem neuen _Issue_ automatisch das _Label_ `Documentation` hinzu. Ein manueller Aufruf ist nicht möglich. Diese _Action_ wird von uns selbst gepflegt und in folgender Datei definiert: https://github.com/ijug-ev/infra.ijug.eu/blob/main/.github/workflows/add-label-to-issue.yml[.github/workflows/add-label-to-issue.yml]
 
 ==== asciidoctor-pages-generator
 
