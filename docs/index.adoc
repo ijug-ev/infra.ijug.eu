@@ -4,6 +4,9 @@ v0.1, 2024-06-16: Start der Dokumentation
 
 // Die folgenden Attribute darfst Du NICHT verändern:
 :doctype: article
+:toc: left
+:toc-title: Inhalt
+:toclevels: 2
 :table-caption: Tabelle
 :listing-caption: Listing
 :figure-caption: Abbildung
