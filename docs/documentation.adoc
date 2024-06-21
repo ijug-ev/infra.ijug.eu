@@ -8,7 +8,11 @@ Diese Dokumentation wird auf https://github.com/[GitHub] in dem öffentlichen Pr
 
 === Automatisierung
 
-Um bei Änderungen an der Dokumentation die https://infra.ijug.eu/[Webseite] automatisiert zu aktualisieren, gibt es zwei _GitHub Actions:_
+In diesem Projekt gibt es insgesamt drei _GitHub Actions_, deren Aufgaben im Folgenden erläutert werden.
+
+==== add-issue-to-project
+
+Damit die in diesem Projekt erstellten https://github.com/ijug-ev/infra.ijug.eu/issues[GitHub Issues] auf der dem Kanban-Board des Infrastruktur Teams erscheinen, stellt diese _Action_ sicher, dass allen neu erstellten _Issues_ das richtige Projekt zugewiesen wird. Ein manueller AUfruf ist nicht möglich. Diese _Action_ wird von uns selbst gepflegt und in folgender Datei definiert: https://github.com/ijug-ev/infra.ijug.eu/blob/main/.github/workflows/add-issue-to-project.yml[.github/workflows/add-issue-to-project.yml]
 
 ==== asciidoctor-pages-generator
 
