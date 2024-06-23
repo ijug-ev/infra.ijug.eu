@@ -42,7 +42,9 @@ Das Repository https://github.com/ijug-ev/infra.ijug.eu[ijug-ev/infra.ijug.eu] i
 
 ==== Format
 
-Die Dokumentation verwendet das https://asciidoc.org/[AsciiDoc] Format. Die entsprechenden Dateien befinden sich im Unterverzeichnis `docs`. Die Hauptdatei heisst `index.adoc`. Für jedes Kapitel gibt es eine eigene Datei, welche in der Hauptdatei eingebunden wird. Die Dateinamen sind in englischer Sprache, die Dokumentation selbst ist in deutscher Sprache verfasst. Da es sich um reine Textdateien handelt, kann jeder Texteditor zum Bearbeiten verwendet werden. Alle Textdateien müssen den Zeichensatz https://de.wikipedia.org/wiki/UTF-8[UTF-8] verwenden.
+Die Dokumentation verwendet das https://asciidoc.org/[AsciiDoc] Format. Die entsprechenden Dateien befinden sich im Unterverzeichnis `docs/user` (Dokumentation für Anwender:innen) buw `docs/technology` (technische Dokumentation). Die Hauptdatei heisst jeweils `index.adoc`. Für jedes Kapitel gibt es eine eigene Datei, welche in der Hauptdatei eingebunden wird. Die Dateinamen sind in englischer Sprache, die Dokumentation selbst ist in deutscher Sprache verfasst. Da es sich um reine Textdateien handelt, kann jeder Texteditor zum Bearbeiten verwendet werden. Alle Textdateien müssen den Zeichensatz https://de.wikipedia.org/wiki/UTF-8[UTF-8] verwenden.
+
+Die Landing-Page für den Root-Ordner der Webseite ist direkt in HTML geschrieben und befindet sich im Unterverzeichnis `docs`.
 
 ==== Vorschau
 
