@@ -19,3 +19,4 @@ Der https://ijug.eu/[iJUG] stellt seinen Mitgliedern gratis verschiedene Dienste
 NOTE: Diese Dokumentation befindet sich noch im Aufbau und ist daher in ihrem momentanen Status als _unvollständig_ zu betrachten.
 
 include::documentation.adoc[]
+include::exim.adoc[]
