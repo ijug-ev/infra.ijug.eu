@@ -1,0 +1,35 @@
+== Exim
+
+*In diesem Kapitel geht es um den technischen Aufbau unserer Exim Instanz sowie deren Nutzung durch unsere anderen Dienste.*
+
+=== Infrastruktur
+
+Die Infastruktur, mit der Exim betrieben wird, basiert auf der gleichen Basis wie die anderen Dienste, die in dieser Dokumentation beschrieben werden.
+
+TODO: Die Basis-Informationen sind aktuell noch nicht dokumentiert. Wenn dies geschehen ist, wird von hier darauf verlinkt.
+
+REALY_FROM_HOSTS nur Docker interne Netze.
+
+==== Betrieb
+
+TODO: Testing beschreiben (das Skript und die Analyse-Webseite)
+
+=== Nutzung
+
+TODO: Was muss man tun, um einem neuen Dienst den Mailversand über Exim zu ermöglichen?
+
+==== Nutzerkonto hinzufügen
+
+TODO: Passwort generieren und `passwd` Datei
+
+==== Firewall anpassen
+
+TODO: JSON File und Webinterface
+
+==== Konfiguration testen
+
+TODO: Test-Skript und Konfiguration auf dem Server des Dienstes
+
+==== Dienst konfigurieren
+
+TODO: Einstellungen
