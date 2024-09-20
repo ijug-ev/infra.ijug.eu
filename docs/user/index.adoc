@@ -24,7 +24,7 @@ Der iJUG betreibt in eigener Infrastruktur folgende Dienst für seine Mitglieder
 
 * **https://java.de/roller/blog/page/user_group_treffen[java.de-Kalender]**: Eine Liste vieler JUGs, wenn diese Ihre Termine automatisiert verfügbar machen. Dies geht z.B. auch über Meetup oder Mobilizon. Von dort können Kalender auf Basis von ICS-Feeds erstellt werden.
 
-* **https://ijug.social/home[Mastodon]**: Der iJUG betreibt einen eigenen Mastodon-Server. Sowohl Mitglieder und Gruppen als auch die Mitglieder der Mitglieder bzw. Gruppenmitglieder können sich dort einen eigenen Account kostenfrei anlegen. Den notwendigen Invite-Code kann man bei itservice@ijug.eu anfragen. Mehr Infos unter https://cloud.ijug.eu/index.php/f/46281
+* **https://ijug.social/[Mastodon]**: Der iJUG betreibt einen eigenen Mastodon-Server. Sowohl Mitglieder und Gruppen als auch die Mitglieder der Mitglieder bzw. Gruppenmitglieder können sich dort einen eigenen Account kostenfrei anlegen. Den notwendigen Invite-Code kann man bei itservice@ijug.eu anfragen. Mehr Infos unter https://cloud.ijug.eu/index.php/f/46281
 
 * **https://chat.ijug.eu[Matrix-Chat]**: Für größere Diskussionen ist eine Mailingliste wie all-vertreter oft nicht der richtige Ort. Daher können diese in den entsprechenden Matrix-Channels geführt werden. Mehr Infos unter https://cloud.ijug.eu/index.php/f/34099
 
