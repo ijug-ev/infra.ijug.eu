@@ -17,3 +17,17 @@ v0.1, 2024-06-23: Aufteilung der Dokumentation
 Der https://ijug.eu/[iJUG] stellt seinen Mitgliedern gratis verschiedene Dienste zur Verfügung. Diese Dienste werden von der _iJUG Infrastrukturgruppe_ betrieben, die aus freiwilligen Mitgliedern besteht. Wie diese Dienste genutzt werden können, ist Bestandteil dieser Dokumentation.
 
 NOTE: Diese Dokumentation befindet sich noch im Aufbau und ist daher in ihrem momentanen Status als _unvollständig_ zu betrachten.
+
+Der iJUG betreibt in eigener Infrastruktur folgende Dienst für seine Mitglieder:
+
+* **https://cloud.ijug.eu[Nextcloud]:** Browser-basiertes Office-Paket in der iJUG-Cloud. Hier können Gruppen angelegt werden, die für Arbeitsgruppen oder Gruppen innerhalb des iJUG genutzt werden können. Damit lassen sich sehr leicht geteilte Arbeitsbereiche für eine solche Gruppe oder Umfragen oder andere Dinge in der Nextcloud erstellen.
+
+* **https://java.de/roller/blog/page/user_group_treffen[java.de-Kalender]**: Eine Liste vieler JUGs, wenn diese Ihre Termine automatisiert verfügbar machen. Dies geht z.B. auch über Meetup oder Mobilizon. Von dort können Kalender auf Basis von ICS-Feeds erstellt werden.
+
+* **https://ijug.social/home[Mastodon]**: Der iJUG betreibt einen eigenen Mastodon-Server. Sowohl Mitglieder und Gruppen als auch die Mitglieder der Mitglieder bzw. Gruppenmitglieder können sich dort einen eigenen Account kostenfrei anlegen. Den notwendigen Invite-Code kann man bei itservice@ijug.eu anfragen. Mehr Infos unter https://cloud.ijug.eu/index.php/f/46281
+
+* **https://chat.ijug.eu[Matrix-Chat]**: Für größere Diskussionen ist eine Mailingliste wie all-vertreter oft nicht der richtige Ort. Daher können diese in den entsprechenden Matrix-Channels geführt werden. Mehr Infos unter https://cloud.ijug.eu/index.php/f/34099
+
+Darüber hinaus nutzt der iJUG extern betriebene Dienste:
+
+* **https://github.com/orgs/ijug-ev[GitHub]**: Manche unser Projekte finden sich in öffentlichen und nicht-öffentlichen Repos unseres GitHub-Repos https://github.com/ijug-ev
