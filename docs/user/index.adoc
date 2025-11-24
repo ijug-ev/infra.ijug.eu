@@ -28,6 +28,8 @@ Der iJUG betreibt in eigener Infrastruktur folgende Dienst für seine Mitglieder
 
 * **https://chat.ijug.eu[Matrix-Chat]**: Für größere Diskussionen ist eine Mailingliste wie all-vertreter oft nicht der richtige Ort. Daher können diese in den entsprechenden Matrix-Channels geführt werden. Mehr Infos unter https://cloud.ijug.eu/index.php/f/34099
 
+* **https://events.ijug.eu[Mobilizon]**: Eine quelloffene, dezentrale, föderierte Event-Plattform. Hier können Veranstaltungen erstellt und verwaltet werden. Mitglieder und Gruppen können hierüber auch Veranstaltungen veröffentlichen, die dann im java.de-Kalender auftauchen.
+
 Darüber hinaus nutzt der iJUG extern betriebene Dienste:
 
 * **https://github.com/orgs/ijug-ev[GitHub]**: Manche unser Projekte finden sich in öffentlichen und nicht-öffentlichen Repos unseres GitHub-Repos https://github.com/ijug-ev
