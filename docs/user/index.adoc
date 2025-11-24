@@ -26,7 +26,7 @@ Der iJUG betreibt in eigener Infrastruktur folgende Dienst für seine Mitglieder
 
 * **https://ijug.social/[Mastodon]**: Der iJUG betreibt einen eigenen Mastodon-Server. Sowohl Mitglieder und Gruppen als auch die Mitglieder der Mitglieder bzw. Gruppenmitglieder können sich dort einen eigenen Account kostenfrei anlegen. Den notwendigen Invite-Code kann man bei itservice@ijug.eu anfragen. Mehr Infos unter https://cloud.ijug.eu/index.php/f/46281
 
-* **https://chat.ijug.eu[Matrix-Chat]**: Für größere Diskussionen ist eine Mailingliste wie all-vertreter oft nicht der richtige Ort. Daher können diese in den entsprechenden Matrix-Channels geführt werden. Mehr Infos unter https://cloud.ijug.eu/index.php/f/34099
+* **https://chat.ijug.eu[Matrix-Chat]** (inkl. Slack-Bridge): Für größere Diskussionen ist eine Mailingliste wie all-vertreter oft nicht der richtige Ort. Daher können diese in den entsprechenden Matrix-Channels geführt werden. Mehr Infos unter https://cloud.ijug.eu/index.php/f/34099
 
 * **https://events.ijug.eu[Mobilizon]**: Eine quelloffene, dezentrale, föderierte Event-Plattform. Hier können Veranstaltungen erstellt und verwaltet werden. Mitglieder und Gruppen können hierüber auch Veranstaltungen veröffentlichen, die dann im java.de-Kalender auftauchen.
 
