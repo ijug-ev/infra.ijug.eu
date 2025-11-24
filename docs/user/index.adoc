@@ -33,3 +33,5 @@ Der iJUG betreibt in eigener Infrastruktur folgende Dienst für seine Mitglieder
 Darüber hinaus nutzt der iJUG extern betriebene Dienste:
 
 * **https://github.com/orgs/ijug-ev[GitHub]**: Manche unser Projekte finden sich in öffentlichen und nicht-öffentlichen Repos unseres GitHub-Repos https://github.com/ijug-ev
+
+* **https://uptime.fihlon.swiss/status/ijug[Status-Seite]**: Auf der Status-Seite des iJUG können Mitglieder den aktuellen Status der iJUG-Dienste einsehen. Diese wird extern gehostet um bei einem Ausfall der iJUG-Infrastruktur Auskunft geben zu können.
