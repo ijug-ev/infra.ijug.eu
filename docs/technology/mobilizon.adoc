@@ -1,0 +1,9 @@
+Neue Gruppen anlegen
+
+- geht über CLI
+- geht auch auch für Administratoren in der GUI (bisher schwer zu findender Text in der Gruppenliste)
+
+Wichtige Infos:
+- Auf Clubdesk gibt es ein Formular, in dem die wichtigsten Daten erstmal erfasst werden
+- Wir legen neue Gruppen erst einmal nicht für alle sichtbar, sondern nur mit Link an. Später kann die Sichtbarkeit auf alle geändert werden.
+- Wir legen neue Gruppen erst einmal so an, dass neue Benutzer moderiert hinzugefügt werden.
