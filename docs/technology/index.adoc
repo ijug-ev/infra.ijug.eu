@@ -21,3 +21,5 @@ NOTE: Diese Dokumentation befindet sich noch im Aufbau und ist daher in ihrem mo
 include::documentation.adoc[]
 
 include::exim.adoc[]
+
+include::mobilizon.adoc[]
